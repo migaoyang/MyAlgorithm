@@ -4,7 +4,7 @@ public class SelectSort {
     public static void select(int [] data){
         if (data == null || data.length == 0)
             return;
-        for (int i = 0 ; i < data.length ; i++ ){
+        for (int i = 0 ; i < data.length ; i++ ){  //select min,set first
             int min = data[i];
             for (int j = i + 1 ; j < data.length ; j++){
                 if (data[j] < min){
