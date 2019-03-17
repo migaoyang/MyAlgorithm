@@ -1,8 +1,6 @@
 package DataStructs.sort;
 /**
- * ֱ�Ӳ�������
- * ��������ֵ���뵽һ�������б���
- * С��>��
+ * 插入排序
  * @author xiaomi
  *
  */
