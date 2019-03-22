@@ -10,10 +10,12 @@ public class InsertSort {
 			return data;
 		}
 		int length = data.length;
-		for(int i = 1 ; i < length ; i ++) {
+		for(int i = 1 ; i < length ; i ++) {  //从第二个数组数据开始
 			int j =i ;
 			int temp = data[j];
 			if (data[i-1] > data[i]) {
+				//和有序序列的最后一个data[i-1]比较，若比data[i-1]还小，
+				// 就进行有序序列的比较--数据后移
 				for(; j > 0 && data[j-1] > temp ; j--) {				
 					data[j] = data[j-1];
 				}
